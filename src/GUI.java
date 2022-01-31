@@ -214,7 +214,7 @@ public class GUI extends Application {
 	 * @param password - the password entered
 	 */
 	public void verifyLogin(BorderPane startPane, TextField username, PasswordField password) {
-		if(MongoUsage.verifyUsername(username.getText()) && MongoUsage.verifyPassword(password.getText())) {
+		if(MongoUsage.verifyUsername(username.getText()) && MongoUsage.verifyPassword(username.getText(), password.getText())) {
 			startPane.getChildren().clear();
 			chooseActivity(startPane);
 		} 

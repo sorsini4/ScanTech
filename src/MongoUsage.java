@@ -262,7 +262,7 @@ public class MongoUsage {
 	 * @param password - the username entered from the GUI
 	 * @return true if the password is found, false otherwise
 	 */
-	public static boolean verifyPassword(String password) {
+	public static boolean verifyPassword(String username, String password) {
 		FindIterable<Admin> iterableDoc = adminCol.find();
 		Iterator<Admin> myIt = iterableDoc.iterator();
 		Admin currentDoc = null;
@@ -271,7 +271,8 @@ public class MongoUsage {
 		while(myIt.hasNext() && !isFound) {
 			currentDoc = myIt.next();
 			String currPass = currentDoc.getPassword();
-			if(currPass.equals(password)) {
+			String currUsername = currentDoc.getUsername();
+			if(currUsername.equals(username) && currPass.equals(password)) {
 				isFound = true;
 				break;
 			}
