@@ -130,6 +130,10 @@ public class GUI extends Application {
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
 		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
+		
 		// Creating all objects for start pane
 		TextField username = new TextField();
 		PasswordField password = new PasswordField();
@@ -385,6 +389,10 @@ public class GUI extends Application {
 		Button submitButton = new Button("Submit");
 		Button backButton = new Button("Back");
 		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
+		
 		// Creating circular button variables
 		final double CIRCLE_RADIUS = 28.0;
 		Circle c = new Circle(CIRCLE_RADIUS);
@@ -513,7 +521,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");	
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -767,7 +779,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1157,7 +1173,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1278,7 +1298,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1444,7 +1468,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");	
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1589,7 +1617,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");	
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1734,7 +1766,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
@@ -1880,6 +1916,10 @@ public class GUI extends Application {
 		Button submitButton = new Button("Submit");
 		Button backButton = new Button("Back");		
 		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
+		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
 		exitButton.setPrefSize(2.0 * CIRCLE_RADIUS, 2.0 * CIRCLE_RADIUS);
@@ -2024,6 +2064,10 @@ public class GUI extends Application {
 		Button submitButton = new Button("Submit");
 		Button backButton = new Button("Back");		
 		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
+		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
 		exitButton.setPrefSize(2.0 * CIRCLE_RADIUS, 2.0 * CIRCLE_RADIUS);
@@ -2166,7 +2210,11 @@ public class GUI extends Application {
 		// Creating buttons
 		Button exitButton = new Button("Exit");
 		Button submitButton = new Button("Submit");
-		Button backButton = new Button("Back");		
+		Button backButton = new Button("Back");	
+		
+		// Setting submit button as default and fixing to look like the original buttons
+		submitButton.setDefaultButton(true);
+		submitButton.setStyle("-fx-base: #ececec");
 		
 		// Creating buttons sizes and shapes
 		exitButton.setShape(c);
